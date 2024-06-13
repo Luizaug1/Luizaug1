@@ -1,7 +1,7 @@
 <h1 align="center">Olá, eu sou Luiz Augusto Miranda de Lima</h1>
 
 [![Luizaug1's GitHub stats](https://github-readme-stats.vercel.app/api?username=Luizaug1&show_icons=true&theme=radical&rank_icon=github)](https://github.com/Luizaug1/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Lauizaug1&layout=compact&theme=radical)](https://github.com/Luizaug1/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Luizaug1&layout=compact&theme=radical)](https://github.com/Luizaug1/github-readme-stats)
 
 <div style="display: inline_block"><br>
     <img align="center" alt="Icon-Oracle" width="40" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"/> 
