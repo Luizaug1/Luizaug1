@@ -6,7 +6,7 @@
 <div style="display: inline_block"><br>
     <img align="center" alt="Icon-Oracle" width="40" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"/> 
     <img align="center" alt="Icon-Python" width="40" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"/>
-    <img align="center" alt="Icon-SQLite" width="40" height="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"/>
+    <img align="center" alt="Icon-SQLite" width="40" height="20" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"/>
 </div>
 
 <h3 align="left">Conecte-se comigo:</h3>
