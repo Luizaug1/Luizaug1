@@ -89,14 +89,35 @@
 
 <p align="center">
   <img
-    height="180"
-    src="https://github-readme-stats.vercel.app/api?username=Luizaug1&show_icons=true&theme=tokyonight&rank_icon=github&include_all_commits=true"
+    width="100%"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Luizaug1&theme=github_dark&animation=load&duration=2"
+    alt="Resumo do perfil GitHub de Luizaug1"
+  />
+</p>
+
+<p align="center">
+  <img
+    width="49%"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Luizaug1&theme=github_dark&animation=load&duration=2&hide_logo=true"
     alt="Estatísticas do GitHub de Luizaug1"
   />
   <img
-    height="180"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Luizaug1&layout=compact&theme=tokyonight&langs_count=10"
-    alt="Linguagens mais usadas por Luizaug1"
+    width="49%"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Luizaug1&theme=github_dark&animation=draw&duration=2"
+    alt="Linguagens utilizadas nos repositórios"
+  />
+</p>
+
+<p align="center">
+  <img
+    width="49%"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Luizaug1&theme=github_dark&animation=sequence&duration=2"
+    alt="Linguagens utilizadas nos commits"
+  />
+  <img
+    width="49%"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Luizaug1&theme=github_dark&utcOffset=-3&animation=load&duration=2"
+    alt="Horários mais produtivos de Luizaug1"
   />
 </p>
 
