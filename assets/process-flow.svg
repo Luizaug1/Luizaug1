@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="160" viewBox="0 0 900 160">
+  <defs>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000000" opacity="0.18"/>
+    </pattern>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#72251F" stroke-width="1" opacity="0.22"/>
+    </pattern>
+    <linearGradient id="glow" x1="0" x2="1">
+      <stop offset="0" stop-color="#FF4D3D"/>
+      <stop offset="0.5" stop-color="#F4C77A"/>
+      <stop offset="1" stop-color="#FF4D3D"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="900" height="160" rx="10" fill="#13090C"/>
+  <rect x="1.5" y="1.5" width="897" height="157" rx="9" fill="none" stroke="#72251F" stroke-width="2"/>
+  <path d="M85 80 H815" stroke="#72251F" stroke-width="4"/>
+  <path d="M85 80 H815" stroke="#FF4D3D" stroke-width="2"/>
+  <circle cx="85" cy="80" r="24" fill="#2A1116" stroke="#FF4D3D" stroke-width="3"/><circle cx="225" cy="80" r="24" fill="#2A1116" stroke="#FF4D3D" stroke-width="3"/><circle cx="365" cy="80" r="24" fill="#2A1116" stroke="#FF4D3D" stroke-width="3"/><circle cx="505" cy="80" r="24" fill="#2A1116" stroke="#FF4D3D" stroke-width="3"/><circle cx="645" cy="80" r="24" fill="#2A1116" stroke="#FF4D3D" stroke-width="3"/><circle cx="815" cy="80" r="24" fill="#2A1116" stroke="#FF4D3D" stroke-width="3"/>
+  <text x="85" y="85" text-anchor="middle" font-family="monospace" font-size="16" font-weight="800" fill="#F4C77A">01</text>
+  <text x="225" y="85" text-anchor="middle" font-family="monospace" font-size="16" font-weight="800" fill="#F4C77A">02</text>
+  <text x="365" y="85" text-anchor="middle" font-family="monospace" font-size="16" font-weight="800" fill="#F4C77A">03</text>
+  <text x="505" y="85" text-anchor="middle" font-family="monospace" font-size="16" font-weight="800" fill="#F4C77A">04</text>
+  <text x="645" y="85" text-anchor="middle" font-family="monospace" font-size="16" font-weight="800" fill="#F4C77A">05</text>
+  <text x="815" y="85" text-anchor="middle" font-family="monospace" font-size="16" font-weight="800" fill="#F4C77A">06</text>
+  <text x="85" y="127" text-anchor="middle" font-family="monospace" font-size="12" fill="#B78F87">IDEIA</text>
+  <text x="225" y="127" text-anchor="middle" font-family="monospace" font-size="12" fill="#B78F87">PLANO IA</text>
+  <text x="365" y="127" text-anchor="middle" font-family="monospace" font-size="12" fill="#B78F87">CÓDIGO</text>
+  <text x="505" y="127" text-anchor="middle" font-family="monospace" font-size="12" fill="#B78F87">TESTES</text>
+  <text x="645" y="127" text-anchor="middle" font-family="monospace" font-size="12" fill="#B78F87">DEPLOY</text>
+  <text x="815" y="127" text-anchor="middle" font-family="monospace" font-size="12" fill="#B78F87">EVOLUÇÃO</text>
+  <rect width="900" height="160" rx="10" fill="url(#scan)"/>
+
+</svg>

@@ -1,142 +1,116 @@
-<h1 align="center">Olá, eu sou Luiz Augusto 👋</h1>
-
-<h3 align="center">AI Automation Developer • Full Stack • Vibe Coder</h3>
-
 <p align="center">
-  Transformo ideias em produtos reais, funcionais e automatizados.<br>
-  Da primeira conversa com a IA até o deploy, os testes e a evolução em produção.
+  <img src="./assets/theme-header.svg" width="100%" alt="Cabeçalho cyber infernal do perfil de Luiz Augusto" />
 </p>
 
 <p align="center">
-  <img
-    src="./assets/luiz-fps.gif"
-    alt="Animação retro FPS: Luiz eliminando bugs e concluindo uma automação"
-    width="900"
-  />
+  <img src="./assets/luiz-fps.gif" width="100%" alt="FPS retro automático de Luiz eliminando bugs" />
 </p>
 
 <p align="center">
-  <strong>🎮 Modo automático:</strong> bugs detectados → bugs eliminados → projeto publicado.
+  <img src="https://img.shields.io/badge/AIMBOT-ON-7CFF73?style=for-the-badge&labelColor=13090C" alt="Aimbot ligado" />
+  <img src="https://img.shields.io/badge/HEADSHOT_MODE-ON-FF4D3D?style=for-the-badge&labelColor=13090C" alt="Modo headshot ligado" />
+  <img src="https://img.shields.io/badge/VIBE_CODING-HIGH_SKILL-F4C77A?style=for-the-badge&labelColor=13090C" alt="Alta habilidade em Vibe Coding" />
 </p>
 
----
+<p align="center">
+  <img src="./assets/status-panel.svg" width="100%" alt="Painel de status profissional" />
+</p>
 
-## 👨‍💻 Sobre mim
+<p align="center">
+  <img src="./assets/section-about.svg" width="100%" alt="Sobre mim" />
+</p>
 
 - 🤖 Desenvolvedor focado em **IA, automações, SaaS e integrações**
-- 🧠 Muito habilidoso em **Vibe Coding**, usando IA como copiloto para planejar, construir, testar, depurar e entregar sistemas complexos
+- 🧠 Muito habilidoso em **Vibe Coding**, usando IA para planejar, construir, testar, depurar e entregar sistemas complexos
 - 🚀 Transformo ideias que estavam apenas no papel em aplicações reais e utilizáveis
-- 🔌 Trabalho com APIs, bots, pagamentos, webhooks, filas, bancos de dados e sistemas multi-tenant
-- 🛡️ Valorizo segurança, testes, observabilidade, performance, backup e rollback
+- 🔌 Trabalho com APIs, bots, pagamentos, webhooks, bancos de dados e ambientes multi-tenant
+- 🛡️ Valorizo segurança, logs, testes, performance, backup e rollback
 - 🇧🇷 Desenvolvedor brasileiro
 
-> **Vibe Coding com disciplina de engenharia:** não é apenas pedir código à IA — é entender o objetivo, quebrar o problema, validar cada etapa e insistir até funcionar.
-
----
-
-## 🧩 Linguagens
-
-<p align="left">
-  <img alt="Python" title="Python" width="42" height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
-  <img alt="TypeScript" title="TypeScript" width="42" height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
-  <img alt="JavaScript" title="JavaScript" width="42" height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-  <img alt="HTML5" title="HTML5" width="42" height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-  <img alt="CSS3" title="CSS3" width="42" height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-  <img alt="C Sharp" title="C#" width="42" height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
-  <img alt="PowerShell" title="PowerShell" width="42" height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" />
-  <img alt="Bash" title="Bash" width="42" height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" />
-  <img alt="PostgreSQL" title="SQL / PostgreSQL" width="42" height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" />
-  <img alt="SQLite" title="SQLite" width="42" height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" />
-</p>
-
----
-
-## 🛠️ Tecnologias e ferramentas
-
-<p align="left">
-  <img alt="React" title="React" width="42" height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
-  <img alt="Vite" title="Vite" width="42" height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" />
-  <img alt="FastAPI" title="FastAPI" width="42" height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" />
-  <img alt="Node.js" title="Node.js" width="42" height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
-  <img alt="Docker" title="Docker" width="42" height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" />
-  <img alt="Git" title="Git" width="42" height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
-  <img alt="GitHub" title="GitHub" width="42" height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
-  <img alt="GitHub Actions" title="GitHub Actions" width="42" height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" />
-  <img alt="Supabase" title="Supabase" width="42" height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" />
-  <img alt="Linux" title="Linux" width="42" height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
-  <img alt="Nginx" title="Nginx" width="42" height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg" />
-</p>
-
-**Também trabalho com:** APIs REST, webhooks, Telegram, WhatsApp, n8n, autenticação OAuth, pagamentos Pix, Mercado Pago, Efí Bank, Supabase, PostgreSQL, deploy em VPS, Caddy, ngrok e automações com IA.
-
----
-
-## 🚀 O que eu construo
-
-```text
-🤖 Bots e automações inteligentes
-💳 SaaS com pagamentos e assinaturas
-📨 Integrações com Telegram e WhatsApp
-🔗 APIs, webhooks e serviços multi-tenant
-🧠 Fluxos com IA e agentes automatizados
-🛡️ Sistemas com segurança, logs e recuperação
-⚡ Otimizações de performance e experiência
-```
-
----
-
-## 📊 Estatísticas
+> **Vibe Coding com disciplina de engenharia:** entender o objetivo, dividir o problema, validar cada etapa e insistir até o sistema funcionar de verdade.
 
 <p align="center">
-  <img
-    height="180"
-    src="https://github-readme-stats.vercel.app/api?username=Luizaug1&show_icons=true&theme=tokyonight&rank_icon=github&include_all_commits=true"
-    alt="Estatísticas do GitHub de Luizaug1"
-  />
-  <img
-    height="180"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Luizaug1&layout=compact&theme=tokyonight&langs_count=10"
-    alt="Linguagens mais usadas por Luizaug1"
-  />
+  <img src="./assets/section-stack.svg" width="100%" alt="Stack operacional" />
 </p>
 
----
+<h3 align="center">Linguagens</h3>
 
-## 🧭 Meu processo
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-1C0D12?style=for-the-badge&logo=python&logoColor=F4C77A" alt="Python" />
+  <img src="https://img.shields.io/badge/TypeScript-1C0D12?style=for-the-badge&logo=typescript&logoColor=F4C77A" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-1C0D12?style=for-the-badge&logo=javascript&logoColor=F4C77A" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/HTML5-1C0D12?style=for-the-badge&logo=html5&logoColor=F4C77A" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1C0D12?style=for-the-badge&logo=css3&logoColor=F4C77A" alt="CSS3" />
+  <img src="https://img.shields.io/badge/C%23-1C0D12?style=for-the-badge&logo=csharp&logoColor=F4C77A" alt="C#" />
+  <img src="https://img.shields.io/badge/PowerShell-1C0D12?style=for-the-badge&logo=powershell&logoColor=F4C77A" alt="PowerShell" />
+  <img src="https://img.shields.io/badge/Bash-1C0D12?style=for-the-badge&logo=gnubash&logoColor=F4C77A" alt="Bash" />
+  <img src="https://img.shields.io/badge/PostgreSQL-1C0D12?style=for-the-badge&logo=postgresql&logoColor=F4C77A" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/SQLite-1C0D12?style=for-the-badge&logo=sqlite&logoColor=F4C77A" alt="SQLite" />
+</p>
 
-```mermaid
-flowchart LR
-    A[Ideia] --> B[Planejamento com IA]
-    B --> C[Implementação]
-    C --> D[Testes]
-    D --> E{Funcionou?}
-    E -- Não --> F[Logs e correção]
-    F --> C
-    E -- Sim --> G[Deploy]
-    G --> H[Monitoramento e evolução]
-```
+<h3 align="center">Tecnologias e ferramentas</h3>
 
----
+<p align="center">
+  <img src="https://img.shields.io/badge/React-1C0D12?style=for-the-badge&logo=react&logoColor=F4C77A" alt="React" />
+  <img src="https://img.shields.io/badge/Vite-1C0D12?style=for-the-badge&logo=vite&logoColor=F4C77A" alt="Vite" />
+  <img src="https://img.shields.io/badge/FastAPI-1C0D12?style=for-the-badge&logo=fastapi&logoColor=F4C77A" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Node.js-1C0D12?style=for-the-badge&logo=nodedotjs&logoColor=F4C77A" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Docker-1C0D12?style=for-the-badge&logo=docker&logoColor=F4C77A" alt="Docker" />
+  <img src="https://img.shields.io/badge/Git-1C0D12?style=for-the-badge&logo=git&logoColor=F4C77A" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-1C0D12?style=for-the-badge&logo=githubactions&logoColor=F4C77A" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Supabase-1C0D12?style=for-the-badge&logo=supabase&logoColor=F4C77A" alt="Supabase" />
+  <img src="https://img.shields.io/badge/Linux-1C0D12?style=for-the-badge&logo=linux&logoColor=F4C77A" alt="Linux" />
+  <img src="https://img.shields.io/badge/Nginx-1C0D12?style=for-the-badge&logo=nginx&logoColor=F4C77A" alt="Nginx" />
+</p>
 
-## 🤝 Conecte-se comigo
+<p align="center">
+  <img src="https://img.shields.io/badge/APIs_REST-1C0D12?style=for-the-badge&logo=fastapi&logoColor=F4C77A" alt="APIs REST" />
+  <img src="https://img.shields.io/badge/WEBHOOKS-1C0D12?style=for-the-badge&logo=webhooks&logoColor=F4C77A" alt="Webhooks" />
+  <img src="https://img.shields.io/badge/TELEGRAM-1C0D12?style=for-the-badge&logo=telegram&logoColor=F4C77A" alt="Telegram" />
+  <img src="https://img.shields.io/badge/WHATSAPP-1C0D12?style=for-the-badge&logo=whatsapp&logoColor=F4C77A" alt="WhatsApp" />
+  <img src="https://img.shields.io/badge/N8N-1C0D12?style=for-the-badge&logo=n8n&logoColor=F4C77A" alt="n8n" />
+  <img src="https://img.shields.io/badge/OAUTH-1C0D12?style=for-the-badge&logo=auth0&logoColor=F4C77A" alt="OAuth" />
+</p>
 
-<p align="left">
+<p align="center">
+  <img src="./assets/section-builds.svg" width="100%" alt="O que eu construo" />
+</p>
+
+<p align="center">
+  <img src="./assets/build-grid.svg" width="100%" alt="Grade de tipos de sistemas construídos por Luiz" />
+</p>
+
+<p align="center">
+  <img src="./assets/section-status.svg" width="100%" alt="Status do GitHub" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/followers/Luizaug1?style=for-the-badge&logo=github&label=FOLLOWERS&labelColor=13090C&color=FF4D3D" alt="Seguidores no GitHub" />
+  <img src="https://img.shields.io/github/stars/Luizaug1?style=for-the-badge&logo=github&label=TOTAL%20STARS&labelColor=13090C&color=F4C77A" alt="Estrelas no GitHub" />
+  <img src="https://komarev.com/ghpvc/?username=Luizaug1&style=for-the-badge&color=FF4D3D&label=PROFILE+VIEWS" alt="Visualizações do perfil" />
+</p>
+
+<p align="center">
+  <img src="./assets/section-process.svg" width="100%" alt="Meu processo de desenvolvimento" />
+</p>
+
+<p align="center">
+  <img src="./assets/process-flow.svg" width="100%" alt="Fluxo de desenvolvimento de ideia até evolução" />
+</p>
+
+<p align="center">
+  <img src="./assets/section-connect.svg" width="100%" alt="Conecte-se comigo" />
+</p>
+
+<p align="center">
   <a href="https://www.linkedin.com/in/luiz-augusto-dev/">
-    <img
-      src="https://img.shields.io/badge/LinkedIn-Luiz%20Augusto-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
-      alt="LinkedIn"
-    />
+    <img src="https://img.shields.io/badge/LINKEDIN-LUIZ_AUGUSTO-FF4D3D?style=for-the-badge&logo=linkedin&logoColor=F4C77A&labelColor=13090C" alt="LinkedIn de Luiz Augusto" />
   </a>
   <a href="https://github.com/Luizaug1">
-    <img
-      src="https://img.shields.io/badge/GitHub-Luizaug1-181717?style=for-the-badge&logo=github&logoColor=white"
-      alt="GitHub"
-    />
+    <img src="https://img.shields.io/badge/GITHUB-LUIZAUG1-F4C77A?style=for-the-badge&logo=github&logoColor=F4C77A&labelColor=13090C" alt="GitHub de Luizaug1" />
   </a>
 </p>
 
----
-
 <p align="center">
-  <strong>“Uma ideia só vira produto quando alguém insiste até ela funcionar.”</strong>
+  <img src="./assets/theme-footer.svg" width="100%" alt="Rodapé temático do perfil" />
 </p>
