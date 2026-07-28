@@ -22,18 +22,18 @@
   <rect x="315" y="116" width="270" height="78" rx="7" fill="#1C0D12" stroke="#C94732"/>
   <rect x="612" y="116" width="270" height="78" rx="7" fill="#1C0D12" stroke="#C94732"/>
 
-  <text x="36" y="45" font-family="monospace" font-size="16" font-weight="800" fill="#F4C77A">BOTS & AUTOMAÇÕES</text>
+  <text x="36" y="45" font-family="monospace" font-size="16" font-weight="800" fill="#F4C77A">BOTS &amp; AUTOMAÇÕES</text>
   <text x="36" y="69" font-family="monospace" font-size="12" fill="#B78F87">Telegram • WhatsApp • n8n • IA</text>
-  <text x="333" y="45" font-family="monospace" font-size="16" font-weight="800" fill="#F4C77A">SAAS & ASSINATURAS</text>
+  <text x="333" y="45" font-family="monospace" font-size="16" font-weight="800" fill="#F4C77A">SAAS &amp; ASSINATURAS</text>
   <text x="333" y="69" font-family="monospace" font-size="12" fill="#B78F87">Multi-tenant • Billing • Acesso</text>
   <text x="630" y="45" font-family="monospace" font-size="16" font-weight="800" fill="#F4C77A">PAGAMENTOS PIX</text>
   <text x="630" y="69" font-family="monospace" font-size="12" fill="#B78F87">Efí • Mercado Pago • Webhooks</text>
 
-  <text x="36" y="143" font-family="monospace" font-size="16" font-weight="800" fill="#F4C77A">APIS & INTEGRAÇÕES</text>
+  <text x="36" y="143" font-family="monospace" font-size="16" font-weight="800" fill="#F4C77A">APIS &amp; INTEGRAÇÕES</text>
   <text x="36" y="167" font-family="monospace" font-size="12" fill="#B78F87">REST • OAuth • Filas • Eventos</text>
-  <text x="333" y="143" font-family="monospace" font-size="16" font-weight="800" fill="#F4C77A">SEGURANÇA & LOGS</text>
+  <text x="333" y="143" font-family="monospace" font-size="16" font-weight="800" fill="#F4C77A">SEGURANÇA &amp; LOGS</text>
   <text x="333" y="167" font-family="monospace" font-size="12" fill="#B78F87">OWASP • Observabilidade • Rollback</text>
-  <text x="630" y="143" font-family="monospace" font-size="16" font-weight="800" fill="#F4C77A">DEPLOY & INFRA</text>
+  <text x="630" y="143" font-family="monospace" font-size="16" font-weight="800" fill="#F4C77A">DEPLOY &amp; INFRA</text>
   <text x="630" y="167" font-family="monospace" font-size="12" fill="#B78F87">Docker • VPS • Caddy • Linux</text>
   <rect width="900" height="212" rx="10" fill="url(#scan)"/>
 
