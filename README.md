@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/luiz-fps.gif" width="100%" alt="FPS retro automático de Luiz eliminando bugs" />
+  <img src="./assets/luiz-fps-v7-no-crosshair.gif" width="100%" alt="FPS retro automático de Luiz eliminando bugs" />
 </p>
 
 <p align="center">
