@@ -1,81 +1,51 @@
 <p align="center">
-  <img src="./assets/theme-header.png" width="100%" alt="Cabeçalho cyber infernal do perfil de Luiz Augusto" />
+  <img src="./assets/deploy-garden-header.png" width="100%" alt="Deploy Garden — Luiz Augusto. Ideias criam raízes. Sistemas ganham vida." />
 </p>
 
 <p align="center">
-  <img src="./assets/luiz-fps-v7-no-crosshair.gif" width="100%" alt="FPS retro automático de Luiz eliminando bugs" />
+  <a href="https://github.com/Luizaug1">GitHub</a> ·
+  <a href="https://www.linkedin.com/in/luiz-augusto-dev/">LinkedIn</a>
 </p>
+
+<p align="center"><strong>Construir com intenção. Entregar com consistência. Evoluir sempre.</strong></p>
 
 <p align="center">
-  <img src="./assets/status-panel.png" width="100%" alt="Painel profissional de status" />
+  <img src="./assets/deploy-snake.gif" width="100%" alt="Cobrinha verde em pixel art perseguindo e comendo pontos de deploy em uma grade inspirada no calendário do GitHub." />
 </p>
 
-<p align="center">
-  <img src="./assets/section-about.png" width="100%" alt="Sobre mim" />
-</p>
+<p align="center"><sub>Um jardim de entregas, um deploy por vez. Animação ilustrativa; os pontos não representam deploys ou contribuições reais.</sub></p>
 
-- 🤖 Desenvolvedor focado em **IA, automações, SaaS e integrações**
-- 🧠 Muito habilidoso em **Vibe Coding**, usando IA para planejar, construir, testar, depurar e entregar sistemas complexos
-- 🚀 Transformo ideias que estavam apenas no papel em aplicações reais e utilizáveis
-- 🔌 Trabalho com APIs, bots, pagamentos, webhooks, bancos de dados e ambientes multi-tenant
-- 🛡️ Valorizo segurança, logs, testes, performance, backup e rollback
-- 🇧🇷 Desenvolvedor brasileiro
+## 🌱 Quem cultiva este jardim
 
-> **Vibe Coding com disciplina de engenharia:** entender o objetivo, dividir o problema, validar cada etapa e insistir até o sistema funcionar de verdade.
+Sou **Luiz Augusto**, desenvolvedor brasileiro focado em **IA, automações, SaaS e integrações**. Transformo ideias em aplicações utilizáveis, conectando sistemas e simplificando processos.
 
-<p align="center">
-  <img src="./assets/section-stack.png" width="100%" alt="Stack operacional" />
-</p>
+Uso inteligência artificial ao longo do desenvolvimento, com atenção ao que sustenta uma boa entrega: entender o problema, validar decisões, testar e acompanhar o sistema em produção.
 
-<p align="center">
-  <img src="./assets/stack-panel.png" width="100%" alt="Linguagens, tecnologias e ferramentas utilizadas por Luiz" />
-</p>
+## 🟩 O que eu construo
 
-<p align="center">
-  <img src="./assets/section-builds.png" width="100%" alt="O que eu construo" />
-</p>
+| Frente | Da ideia à entrega |
+| :--- | :--- |
+| **Automações & bots** | Fluxos inteligentes, tarefas recorrentes e integrações com IA. |
+| **SaaS & plataformas** | Aplicações multi-tenant, assinaturas e controle de acesso. |
+| **APIs & integrações** | Serviços conectados por APIs, webhooks e eventos. |
+| **Pagamentos** | Integrações de cobrança e fluxos de pagamento. |
+| **Operação** | Segurança, logs, testes, performance, backup e rollback. |
 
-<p align="center">
-  <img src="./assets/build-grid.png" width="100%" alt="Grade de tipos de sistemas construídos por Luiz" />
-</p>
+## 🌿 Como as ideias crescem
 
-<p align="center">
-  <img src="./assets/section-status.png" width="100%" alt="Status do GitHub" />
-</p>
+**01 Entender** → **02 Planejar** → **03 Construir** → **04 Validar** → **05 Entregar** → **06 Evoluir**
 
-<p align="center">
-  <a href="https://github.com/Luizaug1">
-    <img src="./assets/github-panel.png" width="100%" alt="Painel do perfil GitHub de Luizaug1" />
-  </a>
-</p>
+Cada etapa tem um propósito: resolver o problema certo e manter espaço para o próximo crescimento.
 
-<p align="center">
-  <img src="./assets/section-process.png" width="100%" alt="Meu processo de desenvolvimento" />
-</p>
+## 🐍 Por trás dos pixels
 
-<p align="center">
-  <img src="./assets/process-flow.png" width="100%" alt="Fluxo de desenvolvimento de ideia até evolução" />
-</p>
+A cobrinha encontra caminhos, coleta um ponto e busca o próximo em outra posição. O ciclo longo varia trajetos e usa uma transição discreta no reinício.
 
-<p align="center">
-  <img src="./assets/section-connect.png" width="100%" alt="Conecte-se comigo" />
-</p>
+O GIF funciona diretamente no GitHub, sem serviços externos. O gerador e as instruções para personalizar a animação estão em [`assets/`](./assets/README.md).
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <a href="https://www.linkedin.com/in/luiz-augusto-dev/">
-        <img src="./assets/linkedin-button.png" width="410" alt="LinkedIn de Luiz Augusto" />
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/Luizaug1">
-        <img src="./assets/github-button.png" width="410" alt="GitHub de Luizaug1" />
-      </a>
-    </td>
-  </tr>
-</table>
+---
 
-<p align="center">
-  <img src="./assets/theme-footer.png" width="100%" alt="Rodapé temático do perfil" />
-</p>
+<p align="center"><strong>Vamos cultivar a próxima ideia?</strong><br />
+<a href="https://www.linkedin.com/in/luiz-augusto-dev/">Converse comigo no LinkedIn</a> · <a href="https://github.com/Luizaug1?tab=repositories">Explore meus repositórios</a></p>
+
+<p align="center"><sub>DEPLOY GARDEN · Luiz Augusto · build / ship / grow</sub></p>
