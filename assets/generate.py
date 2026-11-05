@@ -1,6 +1,5 @@
 """Rebuild pixel assets: python assets/generate.py (requires Pillow)."""
 from pathlib import Path
-from collections import deque
 import random
 from PIL import Image, ImageDraw, ImageFont
 
@@ -29,51 +28,45 @@ def header():
 
 def animation():
     rng = random.Random(20261105)
-    snake = deque([(10-i,3) for i in range(9)])
-    target, eaten, flash = (28,1), 0, 0
-    history, frames = set(), []
-
-    def path(goal):
-        queue, seen = deque([(snake[0],[])]), {snake[0]}
-        occupied = set(list(snake)[:-1])
-        while queue:
-            (x,y), route = queue.popleft()
-            if (x,y) == goal:
-                return route
-            neighbors = [(x+1,y),(x-1,y),(x,y+1),(x,y-1)]
-            rng.shuffle(neighbors)
-            for p in neighbors:
-                if 0 <= p[0] < 53 and 0 <= p[1] < 7 and p not in seen and p not in occupied:
-                    seen.add(p)
-                    queue.append((p,route+[p]))
-        return []
-
-    for tick in range(510):
-        if tick:
-            route = path(target)
-            assert route, 'Target must remain reachable'
-            snake.appendleft(route[0])
-            snake.pop()
-            assert len(set(snake)) == len(snake)
-            if snake[0] == target:
-                eaten += 1
-                flash = 5
-                history.add(target)
-                options = [(x,y) for x in range(53) for y in range(7) if (x,y) not in snake and abs(x-snake[0][0])+abs(y-snake[0][1]) > 13]
-                rng.shuffle(options)
-                target = next(p for p in options if path(p))
+    # A closed, self-avoiding route makes the last -> first frame a normal step.
+    route = ([(x,1) for x in range(2,51)] + [(50,y) for y in range(2,6)]
+             + [(x,5) for x in range(49,1,-1)] + [(2,y) for y in range(4,1,-1)])
+    for _ in range(2400):
+        j = rng.randrange(len(route))
+        a, b = route[j], route[(j+1)%len(route)]
+        dx, dy = b[0]-a[0], b[1]-a[1]
+        side = rng.choice([-1,1])
+        c = (a[0]-dy*side, a[1]+dx*side)
+        e = (b[0]-dy*side, b[1]+dx*side)
+        if all(0<=v[0]<53 and 0<=v[1]<7 and v not in route for v in (c,e)):
+            route[j+1:j+1] = [c,e]
+    n = len(route)
+    assert len(set(route)) == n
+    assert all(abs(route[i][0]-route[(i+1)%n][0])+abs(route[i][1]-route[(i+1)%n][1]) == 1 for i in range(n))
+    # Irregular intervals; targets, flashes and snake state are all periodic.
+    targets, cursor = [], 8
+    while cursor < n-12:
+        targets.append(cursor)
+        cursor += rng.randint(13,25)
+    frames = []
+    for tick in range(n):
+        snake = [route[(tick-i)%n] for i in range(9)]
+        target_index = next((v for v in targets if v>tick), targets[0])
+        target = route[target_index]
+        last_collect = min((tick-v)%n for v in targets)
+        flash = last_collect < 4
         im = canvas(250)
         d = ImageDraw.Draw(im)
         d.text((36,21), 'SNAKE / DEPLOY FEED', font=FONT, fill=GREEN)
-        d.text((727,21), f'DEPLOYS COLLECTED  {eaten:02d}', font=FONT, fill=LIGHT)
+        d.text((727,21), 'DEPLOY FEED / ACTIVE', font=FONT, fill=LIGHT)
         for m,label in enumerate(['NOV','DEC','JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT']):
             d.text((53+m*76,57), label, font=SMALL, fill=MUTED)
         for x in range(53):
             for y in range(7):
                 px,py = 53+x*17,81+y*17
-                d.rectangle((px,py,px+12,py+12), fill='#1b3c29' if (x,y) in history else '#14291e')
+                d.rectangle((px,py,px+12,py+12), fill='#14291e')
         tx,ty = 53+target[0]*17,81+target[1]*17
-        d.rectangle((tx-2,ty-2,tx+14,ty+14), outline=GREEN if tick%8<4 else '#2b7145')
+        d.rectangle((tx-2,ty-2,tx+14,ty+14), outline=GREEN if (target_index-tick)%8<4 else '#2b7145')
         d.rectangle((tx+3,ty+3,tx+9,ty+9), fill=LIGHT)
         for i,(x,y) in reversed(list(enumerate(snake))):
             px,py = 53+x*17,81+y*17
@@ -88,24 +81,15 @@ def animation():
         eyes = [(10 if dx>0 else 2,3),(10 if dx>0 else 2,9)] if dx else [(3,10 if dy>0 else 2),(9,10 if dy>0 else 2)]
         for ex,ey in eyes:
             d.rectangle((px+ex,py+ey,px+ex+2,py+ey+2), fill=BG)
-        status = f'DEPLOY {eaten:02d} ABSORBED +1' if flash else f'NEXT DEPLOY  [{target[0]:02d}:{target[1]:02d}]'
+        status = 'DEPLOY ABSORBED +1' if flash else f'NEXT DEPLOY  [{target[0]:02d}:{target[1]:02d}]'
         d.text((36,218), status, font=SMALL, fill=GREEN)
         d.text((692,218), 'PIXEL SIMULATION / ALWAYS GROWING', font=SMALL, fill=MUTED)
-        flash = max(0,flash-1)
         frames.append(im)
-    last = frames[-1]
-    for width in range(0,1001,100):
-        im = last.copy()
-        ImageDraw.Draw(im).rectangle((0,0,width,249), fill=BG)
-        frames.append(im)
-    for width in range(0,1001,100):
-        im = frames[0].copy()
-        ImageDraw.Draw(im).rectangle((width,0,1000,249), fill=BG)
-        frames.append(im)
-    frames[0].save(ROOT/'deploy-snake.gif', save_all=True, append_images=frames[1:], duration=90, loop=0, optimize=True, disposal=1)
+    frames[0].save(ROOT/'deploy-snake.gif', save_all=True, append_images=frames[1:], duration=160, loop=0, optimize=True, disposal=1)
     frames[150].save(ROOT/'deploy-snake-preview.png')
-    assert eaten >= 10
-    print(f'{len(frames)} frames; {eaten} deploys; {len(frames)*.09:.1f}s loop')
+    assert snake[0] == route[-1]
+    assert [route[(0-i)%n] for i in range(1,9)] == snake[:8]
+    print(f'{n} frames; {len(targets)} targets; {n*.16:.1f}s seamless loop')
 
 
 if __name__ == '__main__':
