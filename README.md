@@ -39,7 +39,7 @@ Cada etapa tem um propósito: resolver o problema certo e manter espaço para o 
 
 ## 🐍 Por trás dos pixels
 
-A cobrinha encontra caminhos, coleta um ponto e busca o próximo em outra posição. O ciclo longo varia trajetos e usa uma transição discreta no reinício.
+A cobrinha encontra caminhos, coleta um ponto e busca o próximo em outra posição. A trajetória forma um ciclo contínuo, sem apagamento ou corte no reinício.
 
 O GIF funciona diretamente no GitHub, sem serviços externos. O gerador e as instruções para personalizar a animação estão em [`assets/`](./assets/README.md).
 
