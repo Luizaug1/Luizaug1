@@ -10,7 +10,7 @@
 <p align="center"><strong>Construir com intenção. Entregar com consistência. Evoluir sempre.</strong></p>
 
 <p align="center">
-  <img src="./assets/deploy-snake.gif?v=2" width="100%" alt="Cobrinha verde em pixel art perseguindo e comendo pontos de deploy em uma grade inspirada no calendário do GitHub." />
+  <img src="https://raw.githubusercontent.com/Luizaug1/Luizaug1/9d2cd18140a6f6f1276e4320570666fd4b1c4e82/assets/deploy-snake.gif" width="100%" alt="Cobrinha verde em pixel art perseguindo e comendo pontos de deploy em uma grade inspirada no calendário do GitHub." />
 </p>
 
 <p align="center"><sub>Um jardim de entregas, um deploy por vez. Animação ilustrativa; os pontos não representam deploys ou contribuições reais.</sub></p>
@@ -49,4 +49,5 @@ O GIF funciona diretamente no GitHub, sem serviços externos. O gerador e as ins
 <a href="https://www.linkedin.com/in/luiz-augusto-dev/">Converse comigo no LinkedIn</a> · <a href="https://github.com/Luizaug1?tab=repositories">Explore meus repositórios</a></p>
 
 <p align="center"><sub>DEPLOY GARDEN · Luiz Augusto · build / ship / grow</sub></p>
+
 
