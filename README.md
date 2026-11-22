@@ -7,47 +7,49 @@
   <a href="https://www.linkedin.com/in/luiz-augusto-dev/">LinkedIn</a>
 </p>
 
-<p align="center"><strong>Construir com intenção. Entregar com consistência. Evoluir sempre.</strong></p>
+<h1 align="center">Luiz Augusto</h1>
+<p align="center"><strong>Desenvolvimento de software · Automações · Integrações com IA</strong></p>
+
+## Sobre mim
+
+Sou desenvolvedor brasileiro com foco em **automações, aplicações SaaS e integração de sistemas**. Desenvolvo soluções para conectar serviços, reduzir tarefas manuais e apoiar processos de negócio.
+
+Trabalho com APIs, bots, webhooks, pagamentos e aplicações com múltiplos clientes. Utilizo inteligência artificial como ferramenta de apoio ao desenvolvimento, com revisão das implementações, testes e validação do comportamento esperado.
+
+## Áreas de atuação
+
+| Área | Aplicação |
+| :--- | :--- |
+| **Automações e bots** | Fluxos de trabalho, tarefas recorrentes e integração entre ferramentas. |
+| **Aplicações SaaS** | Plataformas multi-tenant, assinaturas e controle de acesso. |
+| **APIs e integrações** | Comunicação entre serviços por APIs, webhooks e eventos. |
+| **Pagamentos** | Integrações de cobrança e processamento de notificações de pagamento. |
+| **Operação e manutenção** | Logs, tratamento de falhas, acompanhamento e evolução das aplicações. |
+
+## Abordagem de desenvolvimento
+
+- **Entendimento do problema:** definir requisitos, restrições e critérios de aceite antes da implementação.
+- **Construção incremental:** dividir entregas em etapas que possam ser verificadas e ajustadas.
+- **Qualidade e segurança:** considerar testes, controle de acesso, tratamento de erros e proteção de dados.
+- **Continuidade da operação:** planejar implantação, monitoramento, backup e rollback conforme as necessidades do projeto.
+
+## Projetos e contato
+
+Os repositórios públicos reúnem projetos, estudos e experimentos de desenvolvimento. Para conhecer o código e a documentação, acesse [meus repositórios](https://github.com/Luizaug1?tab=repositories).
+
+Para conversar sobre projetos, integrações ou oportunidades de colaboração, entre em contato pelo [LinkedIn](https://www.linkedin.com/in/luiz-augusto-dev/).
+
+---
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Luizaug1/Luizaug1/1b88801c09682920fac4f2f1aaba5b8e965f92d0/assets/deploy-snake.gif" width="100%" alt="Cobrinha verde em pixel art perseguindo e comendo pontos de deploy em uma grade inspirada no calendário do GitHub." />
 </p>
 
-<p align="center"><sub>Um jardim de entregas, um deploy por vez. Animação ilustrativa; os pontos não representam deploys ou contribuições reais.</sub></p>
+<p align="center"><sub>Deploy Garden · Animação ilustrativa inspirada na grade de contribuições do GitHub.</sub></p>
 
-## 🌱 Quem cultiva este jardim
+<details>
+<summary>Sobre a animação</summary>
 
-Sou **Luiz Augusto**, desenvolvedor brasileiro focado em **IA, automações, SaaS e integrações**. Transformo ideias em aplicações utilizáveis, conectando sistemas e simplificando processos.
+A animação é um elemento visual do perfil e não representa deploys ou contribuições reais. Os arquivos e a documentação estão em [`assets/`](./assets/README.md).
 
-Uso inteligência artificial ao longo do desenvolvimento, com atenção ao que sustenta uma boa entrega: entender o problema, validar decisões, testar e acompanhar o sistema em produção.
-
-## 🟩 O que eu construo
-
-| Frente | Da ideia à entrega |
-| :--- | :--- |
-| **Automações & bots** | Fluxos inteligentes, tarefas recorrentes e integrações com IA. |
-| **SaaS & plataformas** | Aplicações multi-tenant, assinaturas e controle de acesso. |
-| **APIs & integrações** | Serviços conectados por APIs, webhooks e eventos. |
-| **Pagamentos** | Integrações de cobrança e fluxos de pagamento. |
-| **Operação** | Segurança, logs, testes, performance, backup e rollback. |
-
-## 🌿 Como as ideias crescem
-
-**01 Entender** → **02 Planejar** → **03 Construir** → **04 Validar** → **05 Entregar** → **06 Evoluir**
-
-Cada etapa tem um propósito: resolver o problema certo e manter espaço para o próximo crescimento.
-
-## 🐍 Por trás dos pixels
-
-A cobrinha encontra caminhos, coleta um ponto e busca o próximo em outra posição. A trajetória forma um ciclo contínuo, sem apagamento ou corte no reinício.
-
-O GIF funciona diretamente no GitHub, sem serviços externos. O gerador e as instruções para personalizar a animação estão em [`assets/`](./assets/README.md).
-
----
-
-<p align="center"><strong>Vamos cultivar a próxima ideia?</strong><br />
-<a href="https://www.linkedin.com/in/luiz-augusto-dev/">Converse comigo no LinkedIn</a> · <a href="https://github.com/Luizaug1?tab=repositories">Explore meus repositórios</a></p>
-
-<p align="center"><sub>DEPLOY GARDEN · Luiz Augusto · build / ship / grow</sub></p>
-
-
+</details>
